@@ -146,8 +146,12 @@ footer p {
   border: 2px solid #333333;
 }
 
-@media screen and (max-width: 939px){
-  .container {
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container {
     width: 100%;
   }
 
@@ -168,6 +172,152 @@ footer p {
   }
 
 }
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .supporting {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  }
+
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .supporting {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media
+  (min-device-width: 800px)
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .supporting {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .supporting {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+}
+
+
+
+  @media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 4) {
+
+      .container {
+      width: 100%;
+    }
+
+    header {
+      width: 100%;
+    }
+
+    .supporting {
+      width: 100%;
+    }
+
+    footer {
+      width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    }
 
 @media (max-width: 500px) {
   main h1 {
