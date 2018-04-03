@@ -146,6 +146,29 @@ footer p {
   border: 2px solid #333333;
 }
 
+@media screen and (max-width: 939px){
+  .container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .supporting {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+}
+
 @media (max-width: 500px) {
   main h1 {
     font-size: 50px;
